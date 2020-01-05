@@ -1,36 +1,24 @@
+// https://leetcode.com/problems/minimum-falling-path-sum
 class Solution {
 public:
-    const int inf=1e8;
-    vector<vector<int>> dp,visit;
-    int start(int x,int y,vector<vector<int>> &a)
-    {
-        if(x==a.size()) return 0;
-        if(y==-1 || y==a[0].size()) return inf;
-
-        if(visit[x][y]) return dp[x][y];
-
-        int ans=INT_MAX;
-        ans = min(ans,a[x][y] + start(x+1,y-1,a));
-        ans = min(ans,a[x][y] + start(x+1,y,a));
-        ans = min(ans,a[x][y] + start(x+1,y+1,a));
-
-        return ans;
-        visit[x][y] = 1;
-        return dp[x][y] = ans;
-    }
-
+   
     int minFallingPathSum(vector<vector<int>>& a) {
-        int row = a.size();
-        int col = a[0].size();
-
-        dp.resize(row, vecor<int>(col));
-        visit.resize(row, vecor<int>(col,0));
-
-        int ans = INT_MAX;
-        for(int i=0;i<col;i++)
+        int n = a.size();
+        vector<vector<int>> dp(n+1,vector<int>(n+2));
+        
+        for(int i=0;i<n+1;i++)
         {
-            ans  = min(ans,start(0,i,a));
+            dp[i][0] = dp[i][n+1] = INT_MAX;
+            dp[n][i] = 0;
         }
+        
+        for(int i=n-1;i>=0;i--)
+            for(int j=n-1;j>=0;j--)
+                dp[i][j+1] = a[i][j] + min(dp[i+1][j],min(dp[i+1][j+1], dp[i+1][j+2]) );
+         
+        int ans=INT_MAX;
+        for(int i=1;i<=n;i++)
+            ans = min(ans,dp[0][i]);
         return ans;
     }
-}; 
+};
