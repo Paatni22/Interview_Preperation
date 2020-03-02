@@ -19,3 +19,28 @@ void bottomView(Node *root)
    for(auto a:mp)
     cout<<a.second<<" ";
 }
+
+
+// void dfs(Node* root,int x_disp,int level,map<int,pair<int,int>> &mp)
+// {
+// 	if(root==NULL)	return;
+
+// 	if(mp.count(x_disp))
+// 	{
+// 		if(mp[x_disp].second <= level)
+// 			mp[x_disp] = make_pair(root->data,level);
+// 	}
+// 	else
+// 		mp[x_disp] = make_pair(root->data,level);
+// 	dfs(root->left,x_disp-1,level+1,mp);
+// 	dfs(root->right,x_disp+1,level+1,mp);
+// }
+// void bottomView(Node *root)
+// {
+//    // Your Code Here
+// 	map<int,pair<int,int>> mp;
+// 	dfs(root,0,0,mp);
+// 	for(auto a:mp)
+// 		cout<< a.second.first<<" ";
+   
+// }
