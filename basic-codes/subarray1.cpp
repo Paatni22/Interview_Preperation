@@ -1,5 +1,7 @@
 /*
- Number of subarrays having sum exactly equal to k
+ ******Number of subarrays having sum exactly equal to k*********
+
+
 Input : arr[] = {10, 2, -2, -20, 10}, 
         k = -10
 Output : 3

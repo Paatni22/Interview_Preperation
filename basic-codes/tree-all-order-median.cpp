@@ -1,3 +1,5 @@
+// Asked in Adobe.
+
 #include <bits/stdc++.h>
 #include<vector>
 #include<cmath>
