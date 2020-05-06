@@ -8,20 +8,22 @@ Q. WAP to print possibilities for choosing an ordered set of
 #include <bits/stdc++.h> 
 #define pb push_back
 #define pob pop_back
+#include "class.cpp"
 using namespace std; 
 
 int main()
 {
-    int a = 12;
-    int v[] = bitset<10>(a);
+    vector<int> v{1,2,2};
+    vector<vector<int>> ans;
+    Solution ob;
+    ans = ob.subsetsWithDup(v);    
 
-    for(auto x:v)
-        cout<<x<<" ";
-    cout<<endl;
+    for(auto &x:ans) {
+        for(auto y:x)
+            cout<<y<<" ";
+        cout<<endl;
+    }
+   
 }
-
-
-
-
 
 
