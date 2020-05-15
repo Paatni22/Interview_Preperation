@@ -1,52 +1,44 @@
 /*
-Q. WAP to print possibilities for choosing an ordered set of
- r objects (a permutation) from a total of n objects.
+https://leetcode.com/problems/permutations/submissions/
 
-  Note : repetition is allowed.
+Given a collection of distinct integers, return all possible permutations.
 
-*/
-#include <bits/stdc++.h> 
-#define pb push_back
-#define pob pop_back
-using namespace std; 
-void combinations(string s,int r,vector<char> &curr,vector<vector<char>> &result)
-{
-	int n = s.size();
-	if(curr.size() == r)	{
-		result.pb(curr);	return;
-	}
-	for(int i=0;i<n;i++)
-	{
-		curr.pb(s[i]);
-		combinations(temp,r,curr,result);
-		curr.pop_back();
-	}
-}
+Example:
 
-int main()
+Input: [1,2,3]
+Output:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]*/
+
+class Solution {
+public:
+    void perm(vector<vector<int>> &ans,vector<int> &curr,int ind,vector<int> &v,int tot)
     {
-    	
-    	string s = "abc";
-    	int r = 2;
-    	vector<vector<char>> result;
-    	vector<char> curr;
-    	combinations(s,r,curr,result);
-
-    	for(auto &v:result)
-    	{
-    		for(auto ch:v)
-    			cout<<ch;
-    		cout<<endl;
-    	}
-
-    	
-    
-
-
+        if(ind==tot){
+            ans.push_back(curr);
+            return;
+        }   
+        int n = v.size();
+        for(int i=0;i<n;i++)
+        {
+            curr.push_back(v[i]);
+            v.erase(v.begin()+i);
+            perm(ans,curr,ind+1,v,tot);
+            v.insert(v.begin()+i,curr[curr.size()-1]);
+            curr.pop_back();
+        } 
     }
-
-
-
-
-
-
+    
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        vector<int> curr;
+        perm(ans,curr,0,nums,nums.size());
+        return ans;
+    }
+};

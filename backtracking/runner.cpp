@@ -16,13 +16,11 @@ int main()
     vector<int> v{1,2,2};
     vector<vector<int>> ans;
     Solution ob;
-    ans = ob.subsetsWithDup(v);    
+    cout<< ob.solution(3);    
 
-    for(auto &x:ans) {
-        for(auto y:x)
-            cout<<y<<" ";
+    
         cout<<endl;
-    }
+
    
 }
 
