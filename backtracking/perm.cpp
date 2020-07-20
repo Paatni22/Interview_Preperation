@@ -29,16 +29,14 @@ int main()
 	string s = "abc";
 	int r = 2;
 	vector<vector<char>> result;
-	vector<char> curr;
-	combinations(s,r,curr,result);
+	vector<int> curr{1,2,3};
+	v.resize(6);
+	for(auto x:v)
+		cout<<x<<" ,";
+	cout<<endl;
 
-	for(auto &v:result)
-	{
-		for(auto ch:v)
-			cout<<ch;
-		cout<<endl;
-	}
-
+	
+	
     	
     
 
