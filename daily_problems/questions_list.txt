@@ -1,0 +1,116 @@
+/////////////////////////////23_aug_2020
+1. Check if a number can be written as a sum of k prime numbers. Here, the given number is 10 and the value of k is 2. We need to check whether 10 can be represented using the sum of 2 prime numbers or not.
+Yes, 10 can be represented as 5 + 5, where 5 is a prime number.Hence, the output is Yes.If not, then the output is No.
+
+
+2. Lexicographic rank of a string
+
+3. Find ceil value in a BST.
+
+
+4. Given an array with n elements and an integer k. Divide the array into subarrays, each of them containing k ekements.For example:
+Input: arr[]={1, 32, 5, 6, 9, 3} and k=2
+The subarrays will have elements
+{132}, {56}, {93}.
+Now sort these subarrays as {56}, {93}, {132}. Merge these subarrays together and display them as the elements of original array in sorted order as
+Final output: arr[]={5, 6, 9, 3, 1, 32}
+
+
+5. Serialize and Deserialize a Binary Tree   
+
+6. Rearrange Characters
+
+7. Kth largest element in a stream
+
+
+/////////////////////////////24_aug_2020
+1. Subset sum problem :- 
+https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
+Avantika
+2. Single Number :- 
+https://leetcode.com/problems/single-number-ii/
+Komal
+3. Possible Groups :-
+https://practice.geeksforgeeks.org/problems/possible-groups/0
+Mukesh
+4. Wildcard Pattern Matching :-
+https://practice.geeksforgeeks.org/problems/wildcard-pattern-matching/1
+Paras
+5. Ways to write n as sum :-
+https://practice.geeksforgeeks.org/problems/ways-to-write-n-as-sum/0
+Sunil
+6. List to BST :- 
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+Suraj
+7. Stickler Thief :-
+https://practice.geeksforgeeks.org/problems/stickler-theif/0
+Versha
+
+
+
+/////////////////////////////25_aug_2020
+
+1 https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0 
+Mukesh
+2 https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0   
+Avantika
+3 https://practice.geeksforgeeks.org/problems/rotten-oranges/0   
+ Versha 
+4 https://practice.geeksforgeeks.org/problems/circular-tour/1 
+ Komal     
+5 https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1   
+Suraj 
+6 https://practice.geeksforgeeks.org/problems/symmetric-tree/1  
+Sunil  
+7 https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
+Paras
+
+/////////////////////////26_aug_2020
+https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/0
+Coding 2 - KOMAL
+https://practice.geeksforgeeks.org/problems/smallest-number-with-sum-of-digits-as-n-and-divisible-by-10n/0
+Coding 3 - MUKESH
+https://practice.geeksforgeeks.org/problems/container-with-most-water/0
+Coding 4 - Paras
+https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
+Coding 5 - Sunil
+https://practice.geeksforgeeks.org/problems/karatsuba-algorithm/0
+Coding 6 - Suraj
+https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
+Coding 7 - Versha
+https://practice.geeksforgeeks.org/problems/hungry-pizza-lovers/0
+
+
+/////////////////////////////27_aug_2020
+
+1 Target Sum
+https://leetcode.com/problems/target-sum/
+Mukesh
+
+2 Inversion of array :
+https://practice.geeksforgeeks.org/problems/inversion-of-array/0   
+Avantika
+
+3 Distribute Coins in Binary Tree
+https://leetcode.com/problems/distribute-coins-in-binary-tree/
+ Versha 
+
+
+4 Stock buy and sell
+https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0
+ Komal  
+
+
+5 Populating Next Right Pointers in Each Node
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+Suraj 
+
+
+6 Construct Binary Tree from Preorder and Inorder Traversal
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+Sunil  
+
+
+7 House Robber III
+https://leetcode.com/problems/house-robber-iii/
+Paras

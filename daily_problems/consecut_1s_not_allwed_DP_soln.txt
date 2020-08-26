@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+const int M = 1e9+7;
+
+vector<vector<int>> dp;
+int ways(int lastValue,int ind)
+{
+    if(ind==-1) return 1;
+    
+    if(dp[ind][lastValue] != -1)    // if computed before.
+        return dp[ind][lastValue];
+        
+    if(lastValue == 0)
+        return dp[ind][lastValue] = (ways(0,ind-1) + ways(1,ind-1)) % M;
+    else 
+        return dp[ind][lastValue] = ways(0,ind-1);
+}
+int main() {
+	//DP Solution
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n;
+	    cin>>n;
+	    dp.resize(n,vector<int>(2,-1));
+	    cout<< ways(0,n-1)<<endl; // 0 means no restriction on first bit.
+	}
+	return 0;
+}

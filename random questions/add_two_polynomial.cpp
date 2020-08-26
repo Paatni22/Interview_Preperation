@@ -70,6 +70,7 @@ int main()
 	printPolynomial(polya);
 	printPolynomial(polyb);
 
+	// now start doing sum of polynomials.
 	term *sumPoly = NULL,*rear = NULL;
 	while(polya && polyb)
 	{

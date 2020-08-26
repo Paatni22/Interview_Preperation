@@ -1,0 +1,12 @@
+BFS PROBLEMS 
+
+https://www.geeksforgeeks.org/minimum-clicks-to-convert-string-x-to-y/
+
+https://www.geeksforgeeks.org/min-steps-to-convert-n-digit-prime-number-into-another-by-replacing-a-digit-in-each-step/
+
+https://www.geeksforgeeks.org/minimum-nodes-to-be-colored-in-a-graph-such-that-every-node-has-a-colored-neighbour/
+
+
+https://www.geeksforgeeks.org/single-source-shortest-path-between-two-cities/?ref=leftbar-rightbar
+
+https://www.geeksforgeeks.org/find-number-of-closed-islands-in-given-matrix/
