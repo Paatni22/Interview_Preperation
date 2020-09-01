@@ -114,3 +114,83 @@ Sunil
 7 House Robber III
 https://leetcode.com/problems/house-robber-iii/
 Paras
+
+
+
+///////////////////////////////////28 aug 2020
+
+Code Challenge for Today 
+
+Code Challenge - 1: Paras
+
+https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0
+
+ Code Challenge - 2: Mukesh
+
+https://practice.geeksforgeeks.org/problems/shop-in-candy-store/0
+
+ Code Challenge - 3: Versha
+
+https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+
+ Code Challenge - 4: Komal
+
+https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+
+ Code Challenge - 5: Avantika
+
+https://practice.geeksforgeeks.org/problems/longest-consecutive-sequence-in-binary-tree/1
+
+Code Challenge - 6: Suraj
+
+https://practice.geeksforgeeks.org/problems/leaders-in-an-array/0
+
+Code Challenge - 7:  Sunil
+
+https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1
+
+///////////////////////////////////29 aug 2020
+
+Code Challenge-1: Avantika
+https://leetcode.com/problems/permutations-ii/ 
+
+Code Challenge-2: Komal
+https://leetcode.com/problems/generate-parentheses/- 
+
+Code Challenge-3: Mukesh
+https://leetcode.com/problems/set-matrix-zeroes 
+
+Code Challenge-4: Paras
+https://leetcode.com/problems/maximum-product-subarray/ 
+
+Code Challenge-5: Sunil
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+Code Challenge-6: Suraj
+https://leetcode.com/problems/perfect-squares/
+
+Code Challenge-7: Versha
+https://leetcode.com/problems/linked-list-cycle-ii/
+
+//////////////////////////////////31 aug 2020
+
+Code Challenge 1 : Avantika
+https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0
+
+Code Challenge 2 : Mukesh
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+Code Challenge 3 : Paras
+https://leetcode.com/problems/h-index/description/
+
+Code Challenge 4 : Komal
+https://www.geeksforgeeks.org/minimum-n-digit-number-required-to-obtain-largest-n-digit-number-after-performing-given-operations/
+
+Code Challenge 5 : sunil
+https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0
+
+Code Challenge 6 : suraj
+https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion/0
+
+Code Challenge 7 : versha
+ https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
