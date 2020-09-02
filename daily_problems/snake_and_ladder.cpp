@@ -34,7 +34,7 @@ int main() {
 	    for(int i=29;i>=1;i--)
 	    {
 	        if(ladder.count(i))
-	            dp[i] = min(1+minOfNext6(i,dp), dp[ladder[i]]);
+	            dp[i] = dp[ladder[i]];
 	        else
 	            dp[i] = 1+minOfNext6(i,dp);
 	    }
