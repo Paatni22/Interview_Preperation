@@ -22,6 +22,12 @@ int main()
 	vector<int> v(n);
 	for(int &x:v)
 		cin>>x;
+	for(int i=0;i<n;i++)
+		if(v[i] == 0)	v[i] = -1;
+	// replaced all 0s with -1.
+	// now this ques reduced to subarray1 problem
+	// i.e., Number of subarrays having sum exactly equal to k.
+	
 	map<int,int> mp;
 	int currSum = 0,sum = 0;
 	int ans = 0;

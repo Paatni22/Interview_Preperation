@@ -2,7 +2,10 @@
  *****Split an array into two equal Sum subarrays*****
 
 NOTE : this one is very simple.
-Q.Given an array of integers greater than zero, find if it is possible to split it in two subarrays (without reordering the elements), such that the sum of the two subarrays is the same. Print the two subarrays.
+Q.Given an array of integers greater than zero, find if it is 
+possible to split it in two subarrays (without reordering the 
+elements), such that the sum of the two subarrays is the same. 
+Print the two subarrays.
 
 Examples :
 
@@ -42,7 +45,7 @@ int main()
 	int currSum = 0;
 	int ind = 0;
 	bool found = false;
-	for(int i=0;i<n;i++)
+	for(int i=0;i<n && currSum<=sum;i++)
 	{
 		currSum += v[i];
 		if(currSum == sum)
