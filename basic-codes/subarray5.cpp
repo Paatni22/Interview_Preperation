@@ -85,12 +85,3 @@ int main()
 	cout << countSubarrays2(array, size, k)<<endl;
 } 
 
-
-unacademy super30 TS
-telegram
-testbook
-Gate Overflow.
-gfg (C,os,etc)
-mcq in computer science timothy williams 
-
-
