@@ -307,3 +307,45 @@ https://leetcode.com/problems/diameter-of-binary-tree/
 
 7. Versha
 https://leetcode.com/problems/repeated-string-match/
+Code Challenge-1 Avantika 
+https://leetcode.com/problems/unique-paths-ii/
+
+Code Challenge-2 Komal
+https://leetcode.com/problems/gray-code/
+
+Code Challenge-3 Paras 
+https://leetcode.com/problems/shopping-offers/
+
+Code Challenge-4 Mukesh 
+https://leetcode.com/problems/find-the-duplicate-number/
+
+Code Challenge-5 Suraj 
+https://leetcode.com/problems/next-greater-node-in-linked-list/
+
+Code Challenge-6 Sunil 
+https://leetcode.com/problems/most-frequent-subtree-sum/
+
+Code Challenge-7 Versha
+https://leetcode.com/problems/invalid-transactions/
+///////////////////8 sep
+Code Challenge 1 : Versha https://leetcode.com/problems/longest-increasing-subsequence/
+
+Code Challenge 2 : Sunil https://www.codechef.com/AUG20B/problems/SKMP
+
+Code Challenge 3 : Suraj https://leetcode.com/problems/course-schedule/
+
+Code Challenge 4 : Komal https://codeforces.com/contest/1405/problem/B
+
+Code Challenge 5 : Paras https://leetcode.com/problems/next-permutation/
+
+Code Challenge 6 : Mukesh https://leetcode.com/problems/01-matrix/
+
+Code Challenge 7 :  Avantika
+https://codeforces.com/contest/1398/problem/C1. https://leetcode.com/problems/sum-of-subarray-minimums/
+2. https://leetcode.com/problems/can-make-palindrome-from-substring/
+3. https://leetcode.com/problems/merge-intervals/
+4.
+https://leetcode.com/problems/merge-sorted-array/
+5. https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+6. https://leetcode.com/problems/subarray-product-less-than-k/
+7. https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
