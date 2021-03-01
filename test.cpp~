@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	//code
+	int t;
+    cin>>t;
+    while(t--)
+    {
+        int n,e;
+        cin>>n>>e;
+        stack<pair<int,int>> st;
+        queue<pair<int,int>> q;
+        vector<int> height(n+1);
+        height[1] = 1;
+        int currH = 1,parent,child;
+        
+        for(int i=0;i<e;i++)
+        {
+            cin>>parent>>child;
+	    		cout<<parent<<" "<<child<<endl;
+            if(height[parent] > currH) // we starting at new height/level
+            {
+            	cout<<"entered"<<endl;
+                currH = height[parent]; //update current height
+                // pour all the values of stack to queue
+               while(!st.empty())
+               {
+                   cout<<st.size()<<" "<<st.top().first<<" "<<st.top().second<<endl;
+                   q.push(st.top());
+                   st.pop();
+               }
+            }
+            height[child] = height[parent]+1;
+            st.push(make_pair(parent,child));
+        }
+        // now we need to just match the values of queue,
+        // with secod n-arry tree.
+        int ans=1;
+        for(int i=0;i<e;i++)
+        {
+            cout<<q.size()<<" "<<q.front().first<<" "<<q.front().second<<endl;
+            cin>>parent>>child;
+            if(make_pair(parent,child) == q.front())
+                q.pop();
+            else
+            {    ans = 0;break;}
+        }
+        cout<<ans<<endl;
+    }
+	return 0;
+}
