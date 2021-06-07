@@ -1,5 +1,5 @@
 ## this is the challenge to code 6 to 7 quetions daily
-duration : 6th june 2021 to 10th August 2021
+duration : 7th june 2021 to 10th August 2021
 TARGET : 7ques x 65days => 455 ques in 2 months.
 
 Level of questions : 
